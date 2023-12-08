@@ -1,0 +1,15 @@
+:root {
+  --clr-primary-pink: hsl(322, 100%, 66%);
+  --clr-pale-cyan: hsl(193, 100%, 96%);
+  --clr-dark-cyan: hsl(192, 100%, 9%);
+  --clr-grayish-blue: hsl(208, 11%, 55%);
+
+  --ff-poppins: "Poppins", sans-serif;
+  --ff-openSans: "Open Sans", sans-serif;
+
+  --fw-poppins-semiBold: 600;
+  --fw-openSans-regular: 400;
+  --fw-openSans-bold: 700;
+
+  --fs-bodyText: 1.125rem; /* 18px */
+}

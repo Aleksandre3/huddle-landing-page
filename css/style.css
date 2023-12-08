@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import "./variables.css";
+@import "./reset.css";
+@import "./responsive.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: var(--fs-bodyText);
+  color: var(--clr-grayish-blue);
+  font-family: var(--ff-openSans);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.parent-section {
+  background: url("/images/bg-hero-desktop.svg"), var(--clr-pale-cyan);
+  padding: 2.3rem 0 4em;
+}
+
+/********** Header *************/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  height: 30px;
+}
+
+.header-btn {
+  padding: 0.7rem 3rem;
+  border: none;
+  background-color: white;
+  box-shadow: 1px 2px 42px 0px #dddddd;
+  font-weight: var(--fw-poppins-semiBold);
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 4rem;
+}
+
+.hero-content {
+  max-width: 32.313rem;
+  margin-top: 2rem;
+}
+
+.hero-content-title {
+  font-size: 2.4rem;
+}
+
+.hero-content-paragraph {
+  margin: 1rem 0 2rem;
+  color: var(--clr-dark-cyan);
+}
+
+.hero-image {
+  width: 70%;
+  max-width: 100%;
+  height: auto;
+}
+
+/************ Main section ****************/
+
+.main-section {
+  margin: 7rem 0 7rem;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 1px 1px 47px 2px rgba(204, 204, 204, 0.32);
+  border-radius: 6px;
+  margin: 1.3rem 0;
+  padding: 3rem 2rem 3rem;
+}
+
+.main-container:nth-child(2) img {
+  order: -1;
+}
+
+.container-content {
+  max-width: 30.313rem; /* 485px */
+}
+
+.container-image {
+  width: 70%;
+  max-width: 21.875rem; /* 350px */
+}
+
+/*********Community card***********/
+
+.community-card {
+  background-color: white;
+  text-align: center;
+  max-width: 805px;
+  box-shadow: 1px 1px 47px 2px rgba(204, 204, 204, 0.32);
+  border-radius: 15px;
+  padding: 3rem 0 3rem;
+  margin: 0 auto 1.3rem;
+}
+
+.community-card-btn {
+  margin-top: 1.5rem;
+}

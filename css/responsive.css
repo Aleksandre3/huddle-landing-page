@@ -1,0 +1,43 @@
+/* 820px */
+@media screen and (max-width: 51.25rem) {
+  .container {
+    max-width: 50.025rem;
+  }
+
+  .hero-image {
+    width: 80%;
+    height: auto;
+  }
+
+  .logo-img {
+    max-height: 22px;
+    height: auto;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content .hero-content-title {
+    font-size: 2rem;
+  }
+
+  .main-container {
+    flex-direction: column-reverse;
+    row-gap: 4.2rem;
+    text-align: center;
+  }
+
+  .container-content-title {
+    font-size: 1.8rem;
+  }
+
+  .container-content-paragraph {
+    margin-top: 1.3rem;
+  }
+
+  .main-container:nth-child(2) .container-image {
+    order: 0;
+  }
+}

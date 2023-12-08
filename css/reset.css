@@ -1,0 +1,40 @@
+button {
+  cursor: pointer;
+  outline: none;
+  border-radius: 35px;
+}
+
+.btn {
+  background-color: var(--clr-primary-pink);
+  padding: 1.2rem 4.375rem;
+  color: var(--clr-pale-cyan);
+  font-weight: var(--fw-poppins-semiBold);
+  border: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: hsl(322, 100%, 66%, 0.7);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--fw-poppins-semiBold);
+  font-family: var(--ff-poppins);
+  color: var(--clr-dark-cyan);
+}
+
+p {
+  line-height: 1.7rem;
+}
+
+.container {
+  max-width: 70.625rem; /* 1130px */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.25rem; /* 20px */
+}
