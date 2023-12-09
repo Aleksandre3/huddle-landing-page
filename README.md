@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
+- Solution URL: https://github.com/Aleksandre3/huddle-landing-page
 - Live Site URL: https://aleksandre3.github.io/huddle-landing-page/
 
 - ## My process
