@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/Aleksandre3/cards-component-responsive
-- Live Site URL: https://aleksandre3.github.io/cards-component-responsive/
+- Solution URL:
+- Live Site URL: https://aleksandre3.github.io/huddle-landing-page/
 
 - ## My process
 
